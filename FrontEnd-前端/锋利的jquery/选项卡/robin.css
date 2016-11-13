@@ -1,0 +1,12 @@
+*{ margin:0; padding:0;}
+body { font:12px/19px Arial, Helvetica, sans-serif; color:#666;}
+.tab { width:240px;margin:50px;}
+
+.tab_menu li{border:1px solid #898989;display:inline;border-bottom:none; padding:1px 6px; margin-right:4px; background:#F1F1F1;cursor:pointer;  }
+.tab_box { border:1px solid #898989; height:100px;}
+
+
+.tab_menu li.selected { color:#FFF; background:#6D84B4;}
+.hide{display:none}
+/*鼠标移动到时变色*/
+.tab_menu li.hover { background:#DFDFDF;}
